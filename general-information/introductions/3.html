@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>*tackles* | Ghost Horse Night</title>
+    <link rel="stylesheet" href="../../style.css">
+    <script src="https://kit.fontawesome.com/b8de0ada9f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../../index.html">Home</a></li>
+                    <li class="nav-item"><a href="../../general-information/forum-rules/1.html">Rules</a></li>
+                    <li class="nav-item"><a href="../../login.html">Sign Up/Log In</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-horse-head"></i></a>
+            <div class="brand">GHOST HORSE NIGHT</div>
+        </div>
+        <!--SearchBox Section-->
+        <!-- <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div> -->
+    <div class="container">
+        <!--Navigation-->
+        <div class="navigate">
+            <span><a href="../../index.html">ghost horse night</a> >> <a href="../introductions.html">introductions</a> >> <a href="3.html">hello</a></span>
+        </div>
+
+        <!--Topic Section-->
+        <div class="topic-container">
+            <!--Original thread-->
+            <div class="head">
+                <div class="authors">Author</div>
+                <div class="content">*tackles*</div>
+            </div>
+
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="../../users/spookysprinkles.html">spookysprinkles</a></div>
+                    <div>moderator</div>
+                    <img src="../../usericons/icon9.jpg" alt="">
+                    <div>Posts: <u>33</u></div>
+                    <div>Points: <u>874</u></div>
+                </div>
+                <div class="content">
+                    HEY EVERYONE! Tackles the whole forum in a ghostly hug (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+                    <br>
+                    I’m <b>Riley</b>, but you can call me <b>SpookySprinkles</b>! I’m soooo excited to be here because guess what? I saw the ghost horse too! It was late at night, and I was minding my own business when BAM—there it was, galloping through the mist like it owned the place. I nearly dropped my phone!
+                    <br><br>
+                    I love all things spooky but in a cute way, you know? Like, ghosts, but make them ✨aesthetic✨. I spend way too much time making paranormal-themed memes and binge-watching ghost hunting shows, and now I can’t wait to dive into everyone’s ghost horse theories here! Also, if you ever wanna trade spooky stories or need a meme buddy, hit me up.
+                    <br><hr>
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <div class="comment">
+                        <button onclick="showComment()">Comment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Comment Area-->
+        <div class="comment-area hide" id="comment-area">
+            <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+            <a href="../../no-access.html">
+                <input type="submit" value="submit"></a>
+        </div>
+
+        <!--Comments Section-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="../../users/admin.html">ADMIN</a></div>
+                    <div>administrator</div>
+                    <img src="../../usericons/icon1.jpg" alt="">
+                    <div>Posts: <u>42</u></div>
+                    <div>Points: <u>992</u></div>
+                </div>
+                <div class="content">
+                    Welcome! We've had a lot happening recently!
+                    <br><hr>
+                    <img src="../../usersig/sig1.gif">
+                    <audio id="adminsong" src="../../audio/admin2.mp3" preload="auto"></audio>
+                    <button onclick="document.getElementById('adminsong').play();" style="background-color:black; color:white">♬</button>
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <a href="../../no-access.html">
+                <input type="submit" value="submit"></a>
+        </div>
+
+
+        <!--Another Comment With replies-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="../../users/spookysprinkles.html">spookysprinkles</a></div>
+                    <div>moderator</div>
+                    <img src="../../usericons/icon9.jpg" alt="">
+                    <div>Posts: <u>33</u></div>
+                    <div>Points: <u>874</u></div>
+                </div>
+                <div class="content">
+                    Thanks for the welcome! Ooooh, ‘a lot happening’? 👀 Spill the spooky tea! What did I miss? I’m ready for ALL the ghost horse drama!
+                    <br><hr>
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <a href="../../no-access.html">
+                <input type="submit" value="submit"></a>
+        </div>
+                <!--Comments Section-->
+                <div class="comments-container">
+                    <div class="body">
+                        <div class="authors">
+                            <div class="username"><a href="../../users/admin.html">ADMIN</a></div>
+                            <div>administrator</div>
+                            <img src="../../usericons/icon1.jpg" alt="">
+                            <div>Posts: <u>42</u></div>
+                            <div>Points: <u>992</u></div>
+                        </div>
+                        <div class="content">
+                            Well, where do I start? 😅 We've had a couple of new ghost horse sightings, but the weirdest one was someone catching hoof prints in the middle of a foggy parking lot—no horse in sight. And then there’s the theory going around that the ghost horse might actually be tied to an old local legend. People are getting really into it. You’re just in time for the chaos!
+                            <br><hr>
+                            <img src="../../usersig/sig1.gif">
+                            <audio id="adminsong" src="../../audio/admin2.mp3" preload="auto"></audio>
+                            <button onclick="document.getElementById('adminsong').play();" style="background-color:black; color:white">♬</button>
+                            <div class="comment">
+                                <button onclick="showReply()">Reply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Reply Area-->
+                <div class="comment-area hide" id="reply-area">
+                    <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+                    <a href="../../no-access.html">
+                        <input type="submit" value="submit"></a>
+                </div>
+        <!--Another Comment With replies-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="../../users/spookysprinkles.html">spookysprinkles</a></div>
+                    <div>moderator</div>
+                    <img src="../../usericons/icon9.jpg" alt="">
+                    <div>Posts: <u>33</u></div>
+                    <div>Points: <u>874</u></div>
+                </div>
+                <div class="content">
+                    Hoof prints in a parking lot?!! That’s like...next-level spooky! 🐴👻 I am HERE for this chaos! What’s the legend? And please tell me someone got pics! If the ghost horse is leaving clues, we need to start connecting the dots! 🔍✨
+                    <br><hr>
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <a href="../../no-access.html">
+                <input type="submit" value="submit"></a>
+        </div>
+                        <!--Comments Section-->
+                        <div class="comments-container">
+                            <div class="body">
+                                <div class="authors">
+                                    <div class="username"><a href="../../users/admin.html">ADMIN</a></div>
+                                    <div>administrator</div>
+                                    <img src="../../usericons/icon1.jpg" alt="">
+                                    <div>Posts: <u>42</u></div>
+                                    <div>Points: <u>992</u></div>
+                                </div>
+                                <div class="content">
+                                    Yeah, someone grabbed pics! They posted them in the Evidence section—super eerie, you can see the fog swirling around where the horse should be. As for the legend, there’s a story about a rider who lost their horse in a huge storm like 100 years ago. Some people say the horse drowned, but others think it ran off and kept looking for its rider… as a ghost. 😨 People have been linking this story to sightings in the area for decades!
+                                    <br><hr>
+                                    <img src="../../usersig/sig1.gif">
+                                    <audio id="adminsong" src="../../audio/admin2.mp3" preload="auto"></audio>
+                                    <button onclick="document.getElementById('adminsong').play();" style="background-color:black; color:white">♬</button>
+                                    <div class="comment">
+                                        <button onclick="showReply()">Reply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Reply Area-->
+                        <div class="comment-area hide" id="reply-area">
+                            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+                            <a href="../../no-access.html">
+                                <input type="submit" value="submit"></a>
+                        </div>
+         <!--Another Comment With replies-->
+         <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="../../users/spookysprinkles.html">spookysprinkles</a></div>
+                    <div>moderator</div>
+                    <img src="../../usericons/icon9.jpg" alt="">
+                    <div>Posts: <u>33</u></div>
+                    <div>Points: <u>874</u></div>
+                </div>
+                <div class="content">
+                    Omg, I’m already obsessed. 😱 I’ll go check out the pics ASAP! And that legend?!! It sounds straight out of a spooky romance novel. Like, what if the ghost horse is still searching for the rider?!! 🖤 This is giving me SO many ideas for fanart. Do you think the rider could be haunting too? Maybe they're trying to reunite! ✨
+                    <br><hr>
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <a href="../../no-access.html">
+                <input type="submit" value="submit"></a>
+        </div>
+                        <!--Comments Section-->
+                        <div class="comments-container">
+                            <div class="body">
+                                <div class="authors">
+                                    <div class="username"><a href="../../users/admin.html">ADMIN</a></div>
+                                    <div>administrator</div>
+                                    <img src="../../usericons/icon1.jpg" alt="">
+                                    <div>Posts: <u>42</u></div>
+                                    <div>Points: <u>992</u></div>
+                                </div>
+                                <div class="content">
+                                    Oooh, a ghostly reunion? Now I need that fanart! 🖤 Some people actually think the rider is still around, but more as a shadow figure. A few investigators have seen a cloaked figure near the horse sightings, but it always disappears before they can get close. It's super creepy but kinda tragic too, right?
+                                    <br><hr>
+                                    <img src="../../usersig/sig1.gif">
+                                    <audio id="adminsong" src="../../audio/admin2.mp3" preload="auto"></audio>
+                                    <button onclick="document.getElementById('adminsong').play();" style="background-color:black; color:white">♬</button>
+                                    <div class="comment">
+                                        <button onclick="showReply()">Reply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Reply Area-->
+                        <div class="comment-area hide" id="reply-area">
+                            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+                            <a href="../../no-access.html">
+                                <input type="submit" value="submit"></a>
+                        </div>
+                <!--Another Comment With replies-->
+                <div class="comments-container">
+                    <div class="body">
+                        <div class="authors">
+                            <div class="username"><a href="../../users/spookysprinkles.html">spookysprinkles</a></div>
+                            <div>moderator</div>
+                            <img src="../../usericons/icon9.jpg" alt="">
+                            <div>Posts: <u>33</u></div>
+                            <div>Points: <u>874</u></div>
+                        </div>
+                        <div class="content">
+                            So tragic! 💔 The rider and the horse, forever separated but trying to find each other... Ugh, it’s perfect. This whole ghost horse thing just went from spooky to full-on paranormal tragedy! 🌙 I’m gonna start sketching this right away. Do you think the figure and the horse ever come out together, or are they always apart? Maybe they keep just missing each other!
+                            <br><hr>
+                            <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                            <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                            <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                            <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                            <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                            <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                            <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                            <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                            <div class="comment">
+                                <button onclick="showReply()">Reply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Reply Area-->
+                <div class="comment-area hide" id="reply-area">
+                    <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+                    <a href="../../no-access.html">
+                        <input type="submit" value="submit"></a>
+                </div>
+                <!--Comments Section-->
+                <div class="comments-container">
+                    <div class="body">
+                        <div class="authors">
+                            <div class="username"><a href="../../users/admin.html">ADMIN</a></div>
+                            <div>administrator</div>
+                            <img src="../../usericons/icon1.jpg" alt="">
+                            <div>Posts: <u>42</u></div>
+                            <div>Points: <u>992</u></div>
+                        </div>
+                        <div class="content">
+                        I don’t think anyone’s seen them together, but now I’m imagining them just missing each other, like, one appears and the other fades. There’s gotta be some kind of cosmic drama keeping them apart. Maybe we’re the ones who have to figure it out and help them reunite!
+                            <br><hr>
+                            <img src="../../usersig/sig1.gif">
+                            <audio id="adminsong" src="../../audio/admin2.mp3" preload="auto"></audio>
+                            <button onclick="document.getElementById('adminsong').play();" style="background-color:black; color:white">♬</button>
+                            <div class="comment">
+                                <button onclick="showReply()">Reply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Reply Area-->
+                <div class="comment-area hide" id="reply-area">
+                    <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+                    <a href="../../no-access.html">
+                        <input type="submit" value="submit"></a>
+                </div>
+                        <!--Another Comment With replies-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="../../users/spookysprinkles.html">spookysprinkles</a></div>
+                    <div>moderator</div>
+                    <img src="../../usericons/icon9.jpg" alt="">
+                    <div>Posts: <u>33</u></div>
+                    <div>Points: <u>874</u></div>
+                </div>
+                <div class="content">
+                    Now I’m wondering if something’s blocking them from finding each other, like a cursed object or a spot they can’t cross? Ugh, my imagination is running wild. I’m heading to the Evidence section right now to dig into this more!
+                    <br><hr>
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <img src="../../usersig/sig5.gif" alt="" style="width:100px">
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <a href="../../no-access.html">
+                <input type="submit" value="submit"></a>
+        </div>       
+
+    </div>
+    <footer>
+        <span>&copy; 2010-2024 GHN Inc. | All Rights Reserved</span>
+    </footer>
+    <script src="../../main.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Rules | Ghost Horse Night</title>
+    <link rel="stylesheet" href="../../style.css">
+    <script src="https://kit.fontawesome.com/b8de0ada9f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../../index.html">Home</a></li>
+                    <li class="nav-item"><a href="../../general-information/forum-rules/1.html">Rules</a></li>
+                    <li class="nav-item"><a href="../../login.html">Sign Up/Log In</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-horse-head"></i></a>
+            <div class="brand">GHOST HORSE NIGHT</div>
+        </div>
+        <!--SearchBox Section-->
+        <!-- <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div> -->
+    <div class="container">
+        <!--Navigation-->
+        <div class="navigate">
+            <span><a href="../../index.html">ghost horse night</a> >> <a href="../forum-rules.html">forum rules</a> >> <a href="1.html">forum rules</a></span>
+        </div>
+
+        <!--Topic Section-->
+        <div class="topic-container">
+            <!--Original thread-->
+            <div class="head">
+                <div class="authors">Author</div>
+                <div class="content">Forum Rules</div>
+            </div>
+
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="../../users/admin.html">ADMIN</a></div>
+                    <div>administrator</div>
+                    <img src="../../usericons/icon1.jpg" alt="">
+                    <div>Posts: <u>42</u></div>
+                    <div>Points: <u>992</u></div>
+                </div>
+                <div class="content">
+                    Welcome, fellow ghost horse seekers. 
+                    
+                <br>Before you step into the mist, remember these important rules to keep our haunted community safe:
+                    <br>
+                    <br><b>ꕥ Respect the spirits (and each other):</b><span style="color: white"> No harsh words, only kindness. We’re all here to explore the unknown.</span>
+                    <br><b>ꕥ Stay within the veil:</b><span style="color: white"> Keep discussions on-topic. For wandering thoughts, head to General Chat.</span>
+                    <br><b>ꕥ Handle evidence with care:</b><span style="color: white"> Share your eerie encounters with full context, and offer respectful feedback—no mocking the paranormal.</span>
+                    <br><b>ꕥ No cursed spam or promotion:</b><span style="color: white"> Only share relevant links in the appropriate places. Keep it focused on the supernatural.</span>
+                    <br><b>ꕥ Guard your secrets:</b><span style="color: white"> Never reveal personal information. Protect your identity from both the living and the unknown.</span>
+                    <br><b>ꕥ Honor the source:</b><span style="color: white"> If you share someone else’s lore or research, give them credit—plagiarism is bad karma.</span>
+                    <br><b>ꕥ Obey the gatekeepers:</b><span style="color: white"> The moderators will guide you; heed their warnings or risk being cast out.</span>
+                    <br><br><hr>
+                    <img src="../../usersig/sig1.gif" alt="">
+                    <audio id="adminsong" src="../../audio/admin2.mp3" preload="auto"></audio>
+                    <button onclick="document.getElementById('adminsong').play();" style="background-color:black; color:white">♬</button>
+                    <div class="comment">
+                        <button onclick="showComment()">Comment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Comment Area-->
+        <div class="comment-area hide" id="comment-area">
+            <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+            <a href="../../no-access.html">
+                <input type="submit" value="submit"></a>
+        </div>
+
+        <!--Comments Section-->
+        <!-- <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="">AnotherUser</a></div>
+                    <div>Role</div>
+                    <img src="https://cdn.pixabay.com/photo/2015/11/06/13/27/ninja-1027877_960_720.jpg" alt="">
+                    <div>Posts: <u>455</u></div>
+                    <div>Points: <u>4586</u></div>
+                </div>
+                <div class="content">
+                    Just a comment of the above random topic.
+                    <br>To see how it looks like.
+                    <br><br>
+                    Nothing more and nothing less.
+                    <br>
+                    <br>
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!--Reply Area-->
+        <!-- <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div> -->
+
+
+        <!--Another Comment With replies-->
+        <!-- <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="">AnotherUser</a></div>
+                    <div>Role</div>
+                    <img src="https://cdn.pixabay.com/photo/2015/11/06/13/27/ninja-1027877_960_720.jpg" alt="">
+                    <div>Posts: <u>455</u></div>
+                    <div>Points: <u>4586</u></div>
+                </div>
+                <div class="content">
+                    Just a comment of the above random topic.
+                    <br>To see how it looks like.
+                    <br><br>
+                    Nothing more and nothing less.
+                    <br>
+                    <br>
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!--Reply Area-->
+        <!-- <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div> -->
+
+        
+
+    </div>
+    <footer>
+        <span>&copy; 2010-2024 GHN Inc. | All Rights Reserved</span>
+    </footer>
+    <script src="../../main.js"></script>
+</body>
+</html>
