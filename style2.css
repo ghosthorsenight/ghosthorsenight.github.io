@@ -1,0 +1,274 @@
+/* ########################################### */
+/*                 Global                      */
+/* ########################################### */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+    font-family: 'SourceSansPro-Regular', sans-serif;
+    background-color:#111;
+    color:#ddd;
+}
+
+a{
+    color:#ddd;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#ddd;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    opacity: 0.5;
+}
+
+.voidhead h1{
+    font-size:64px;
+    font-weight: 10px;
+    font-family: 'Cormorant Garamond';
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    text-align: right;
+    margin-top: 275px;
+    margin-left: -255px;
+    white-space: nowrap;
+    position: -webkit-sticky; /* Safari */
+    position: fixed;
+    top: 0;
+    
+}
+
+.voidnav>li {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 24px;
+    font-family: 'Cormorant Garamond';
+    text-transform: uppercase;
+    padding-right:15px;
+    font-weight:bold;
+}
+
+ul.voidnav-nav{
+    display: inline-block;
+  }
+
+.infovoid h1{
+    font-size:4rem;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond';
+    text-transform: uppercase;
+}
+
+.introvoid h1{
+    font-size:45px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond';
+    text-transform: uppercase;
+}
+
+.introvoid h3 {
+    font-style: italic;
+}
+
+.columnfooter {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flexitem {
+    font-size: 16px;
+    font-size: 14px;
+    font-family: 'SourceSansPro-Regular', sans-serif;
+    font-weight:100;
+}
+
+/* FONTS */
+
+.cormorant-garamond-light {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .container {
+    flex-direction: column;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+/* Solid border */
+hr.solid {
+    border-top: 2px solid #ddd;
+    width: 400px;
+  }
+
+  blockquote {
+    background: #111;
+    border-top: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+    margin: 1.5em 10px;
+  }
+  blockquote p {
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+  }
+
+  p {
+    line-height:25px;
+  }
+
+  li {
+    line-height:25px;
+  }
+
+  p strong {
+    font-family: 'SourceSansPro-Bold', sans-serif;
+    background-color: #ddd;
+    color: #111;
+  }
+
+  li strong {
+    font-family: 'SourceSansPro-Bold', sans-serif;
+    background-color: #ddd;
+    color: #111;
+  }
+
+/* ########################################### */
+/*           Forums.html                       */
+/* ########################################### */
+
+/* For the smartphones */
+@media screen and (max-width: 460px) {
+    .container{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    
+
+  }
+
+/* For the tablets */
+@media screen and (min-width: 460px) and (max-width: 1024px) {
+    .container{
+        margin: 15px;
+        padding: 15px;
+    }
+
+    html{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+  }
+/*   Header Section    */
+
+header{
+    margin-inline: 10px;
+}
+  /* Nav Bar styles */
+.navbar{
+    display:flex;
+    align-items: left;
+    min-width:1000px;
+}
+.navigation{
+    background-color:#00ff04;
+    padding: 10px;
+    width: 65%;
+    display: inline-block;
+    border-radius: 5px;
+    max-height: 80px;
+    margin-right:10px;
+}
+
+.nav-list{
+    list-style-type:none;
+    overflow: hidden;
+}
+
+.nav-item a{
+    float: right;
+    display:block;
+    text-align: center;
+    margin-inline: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color:#0b0b0b;
+}
+
+.nav-item a:hover{
+    background-color: rgb(0,0,0,0.1);
+}
+
+.hide{
+    display: none;
+}
+
+.bar-icon{
+    font-size: 60px;
+    display: inline-block;
+    margin-right:10px;
+    color: #00d5ff;
+    cursor: pointer;
+}
+
+.brand{
+    font-size:60px;
+    display: inline-block;
+    font-family:HelpMe;
+}
+
+/*Navbar for the smartphones*/
+@media screen and (max-width: 460px){
+    .navigation{
+        max-height: auto;
+    }
+    
+    .nav-item a{
+        float:left;
+        display:inline;
+        margin-inline: 3px;
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    
+    .bar-icon{
+        font-size: 30px;
+    }
+ 
+    .brand{
+        font-size:20px;
+    }
+}
+
+/* Footer Styling */
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:  #111;
+    display: block;
+    text-align: center;
+}
